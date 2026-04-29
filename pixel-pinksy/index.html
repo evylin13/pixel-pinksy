@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Tamagotchi — Pilih Karakter & Background</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=DotGothic16&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="sky-deco">
+    <span class="cloud cloud-1"></span>
+    <span class="cloud cloud-2"></span>
+    <span class="cloud cloud-3"></span>
+    <span class="sparkle s1">+</span>
+    <span class="sparkle s2">+</span>
+    <span class="sparkle s3">+</span>
+  </div>
+
+  <main class="stage">
+    <header class="title-bar">
+      <h1 class="title">♡ Pixel Pinksy ♡</h1>
+      <p class="subtitle">use left/right to change character, middle to change background ~</p>
+    </header>
+
+    <section class="tama">
+  <span class="brand">♥♥♥♥♥♥♥</span>
+
+  <!-- tiny hearts -->
+  <span class="heart h1">♥</span>
+  <span class="heart h2">♥</span>
+  <span class="heart h3">♥</span>
+  <span class="heart h4">♥</span>
+  <span class="heart h5">♥</span>
+  <span class="heart h6">♥</span>
+
+  <!-- bow -->
+  <div class="deco-bow">
+    <div class="bow-l"></div>
+    <div class="bow-r"></div>
+    <div class="bow-knot"></div>
+  </div>
+
+  <!-- cupcake -->
+  <div class="deco-cupcake">
+    <div class="cupcake-cream"></div>
+    <div class="cupcake-cup"></div>
+    <div class="cupcake-bow"></div>
+  </div>
+
+  <!-- charm -->
+  <div class="deco-charm">
+    <div class="chain"></div>
+    <div class="charm-star">★</div>
+    <div class="charm-heart">♥</div>
+    <div class="charm-bead"></div>
+  </div>
+
+  <!-- mascot -->
+  <div class="deco-mascot">
+    <div class="mascot-body"></div>
+    <div class="mascot-bow"></div>
+    <div class="mascot-eye l"></div>
+    <div class="mascot-eye r"></div>
+    <div class="mascot-cheek l"></div>
+    <div class="mascot-cheek r"></div>
+  </div>
+
+  <!-- SCREEN -->
+  <div class="screen">
+    <div class="bg-layer" id="bgLayer"></div>
+    <div class="char-layer" id="charLayer">
+      <img id="charImg" alt="character" />
+    </div>
+    <div class="screen-glare"></div>
+    <span class="float-heart fh1">♥</span>
+    <span class="float-heart fh2">♥</span>
+  </div>
+
+  
+
+  <!-- BUTTON -->
+<div class="buttons">
+  <button id="btnPrevChar" class="tama-btn"></button>
+  <button id="btnNextBg" class="tama-btn"></button>
+  <button id="btnNextChar" class="tama-btn"></button>
+</div>
+</section>
+
+
+
+
+</div>
+
+    <footer>
+      <span>made with ♡ — by evylin (ini pakek bantuan ai ya cok, aku ga sejago itu, aset dari pinterest, dah ya)</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</body>
+</html>
